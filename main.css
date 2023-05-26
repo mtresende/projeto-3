@@ -1,0 +1,109 @@
+*{
+    font-family: 'Roboto' sans-serif;
+}
+
+.text-color,
+.text-color:hover{
+    font-family: 'Bayon', sans-serif;
+    color: #fff;
+}
+
+header{
+    background-color: rgb(5, 5, 133);
+}
+
+#cabecalho .nav .nav-link.active,
+.btn{
+    background-color: rgb(202, 152, 3);
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active:hover,
+.btn:hover{
+    background-color: rgb(232, 179, 21);
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link{
+    color: #fff
+}
+
+.section-title{
+    color: black;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.logo,
+.section-title span{
+    color: rgb(5, 5, 133);
+    font-family: 'Bayon', sans-serif;
+}
+
+#airplane{
+    color: #fff;
+}
+
+#hoteis{
+    background-color: rgba(5, 5, 133, 0.105)
+}
+
+.nav-viagens .nav-link.active{
+    background-color: rgb(5, 5, 133);
+    color: #fff;
+}
+
+.text-colored{
+    color: rgb(5, 5, 133)
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.text-colored2{
+    color: rgb(202, 152, 3);
+}
+
+#contato{
+    background-color: rgba(5, 5, 133, 0.105);
+}
+
+label.error{
+    color:red;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 12;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px){
+    .col-4{
+        width: 100%;
+        padding-bottom: 16px;
+    }
+
+    #sobre img{
+        padding-bottom: 16px;
+    }
+
+    aside{
+        padding-bottom: 16px;
+    }
+
+    form{
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .col-4{
+        width: 50%;
+        padding-bottom: 16px;
+    }
+}

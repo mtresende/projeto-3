@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bayon&family=Pathway+Extreme&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <title>EBAC Tours</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 p-0 fs-1 text-color">EBAC Tours</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link active" href="#sobre">Sobre a agência</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#hoteis">Hotéis</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#viagens">Ver viagens</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contato">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <h2 class="section-title text-center pb-5 mb-0 fs-1">Conheça a <span class="fw-lighter fs-1">EBAC Tours</span></h2>
+                    <div class="col-md-5">
+                        <img src="images/agencia.jpg" class="d-block w-100 rounded" alt="Espaço interno da agência">
+                    </div>
+                    <div class="col-md-7">
+                        <h3 class="section-title">Nosso começo</h3>
+                        <p>
+                            A EBAC Tours nasceu com o propósito de proporcionar experiências únicas de viagem. 
+                            Com uma equipe talentosa e apaixonada por turismo, a agência planeja roteiros 
+                            exclusivos para destinos ao redor do mundo.
+                        </p>
+                        <h3 class="section-title">Nossos clientes</h3>
+                        <p>
+                            Os clientes são a prioridade da EBAC Tours. Com pacotes personalizados, a agência 
+                            atende às necessidades de cada viajante. Com atendimento excepcional e guias 
+                            especializados, a EBAC Tours conquistou a confiança de seus clientes, que sempre 
+                            retornam em busca de novas memórias incríveis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pb-5" id="hoteis">
+            <div class="container">
+                <h2 class="section-title text-center pb-5 pt-5 mb-0 fs-1">Hotéis em alta no Brasil</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header text-center fs-4 fw-bold">
+                                Belo Horizonte - MG
+                            </div>
+                            <img src="images/hoteis/ourominas.jpg" alt="Fachada do Hotel ouro minas">
+                            <div class="card-body">
+                                <h4>Hotel Ouro Minas</h4>
+                                <p>
+                                    O Ouro Minas Hotel Belo Horizonte, Dolce by Wyndham é reconhecido pelo conforto e excelente atendimento. 
+                                    Possui toda a infraestrutura para receber você em sua viagem de lazer ou negócios e também para sediar eventos
+                                    ou convenções. Sua localização é estratégica: próximo aos aeroportos, ao estádio Mineirão e à 
+                                    Cidade Administrativa.
+                                </p>
+                                <a href="#" class="btn fw-bold">Mais informações</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header text-center fs-4 fw-bold">
+                                Rio de Janeiro - RJ
+                            </div>
+                            <img src="images/hoteis/copacabana.jpg" alt="Fachada do Hotel copacabana palace">
+                            <div class="card-body">
+                                <h4>Copacabana Palace</h4>
+                                <p>
+                                    Localizado na famosa Praia de Copacabana, o Belmond Copacabana Pala é reconhecidamente o 
+                                    mais luxuoso hotel do Brasil. Um símbolo de sofisticação e requinte, o Copa oferece um 
+                                    serviço impecável, excelente gastronomia e luxuosas acomodações, confirmando a sua tradição de 
+                                    local ideal para se hospedar no Rio de Janeiro.
+                                </p>
+                                <a href="#" class="btn fw-bold">Mais informações</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header text-center fs-4 fw-bold">
+                                Arraial d'Ajuda - BA
+                            </div>
+                            <img src="images/hoteis/wish.jpg" alt="Fachada do Hotel copacabana palace">
+                            <div class="card-body">
+                                <h4>Kûara Hotel</h4>
+                                <p>
+                                    O Kûara é o mais novo hotel de luxo de Arraial d'Ajuda, um paraíso cercado por paisagens de 
+                                    mata atlântica, falésia, rio e praia. O projeto assinado pelo renomado arquiteto David Guerra 
+                                    convida seus hóspedes a desfrutarem de uma atmosfera de requinte, contato com a natureza e muito 
+                                    conforto, onde a arte de bem servir encantam seus visitantes.
+                                </p>
+                                <a href="#" class="btn fw-bold">Mais informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="viagens">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-5 pt-5">Viagens exclusivas</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-4">
+                        <nav class="nav nav-pills flex-column nav-viagens">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#norte" class="text-colored fw-bold text-start nav-link active">Norte</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nordeste" class="text-colored fw-bold text-start nav-link">Nordeste</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#centro-oeste" class="text-colored fw-bold text-start nav-link">Centro-oeste</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sudeste" class="text-colored fw-bold text-start nav-link">Sudeste</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sul" class="text-colored fw-bold text-start nav-link">Sul</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-8">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="norte">
+                                <div class="row">
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/norte/dunas.jpg" alt="Dunas do jalapão">
+                                        <h5>Dunas do Jalapão - TO</h5>
+                                        <p>
+                                            Areias douradas e paisagens intocadas formam um cenário impressionante de aventura e beleza natural.
+                                        </p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/norte/fervedouros.jpg" alt="Fervedouros">
+                                        <h5>Fervedouros - TO</h5>
+                                        <p>
+                                            Descubra as águas cristalinas dos fervedouros, nascentes que proporcionam flutuação em um verdadeiro paraíso subaquático.
+                                        </p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/norte/monte-roraima.jpg" alt="Monte roraima">
+                                        <h5>Monte Roraima - RO</h5>
+                                        <p>
+                                            Uma montanha mística e imponente, com paredões verticais, cachoeiras e um ecossistema único no topo.
+                                        </p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/norte/serra-do-navio.jpg" alt="Serra do navio">
+                                        <h5>Serra do Navio - AP</h5>
+                                        <p>
+                                            Conheça a exuberante Serra do Navio, com suas paisagens de floresta amazônica e rios de águas cristalinas.
+                                        </p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="nordeste">
+                                <div class="row">
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/nordeste/lencoismaranhenses.jpg" alt="Lençoes maranhenses">
+                                        <h5>Lençóis Maranhenses - MA</h5>
+                                        <p>Um deserto de dunas intermináveis, onde lagoas de água doce se formam entre as areias brancas.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/nordeste/morrodesaopaulo.jpg" alt="Morro de são paulo">
+                                        <h5>Morro de São Paulo - BA</h5>
+                                        <p>Um paraíso tropical com praias paradisíacas, águas cristalinas e um clima de tranquilidade e descontração.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/nordeste/natal.jpg" alt="Natal">
+                                        <h5>Natal - RN</h5>
+                                        <p>Sol o ano todo, praias deslumbrantes e dunas de areia branca fazem de Natal um destino imperdível.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/nordeste/serradacapivara.jpg" alt="Serra da capivara">
+                                        <h5>Serra da capivara - PI</h5>
+                                        <p>Explore o incrível sítio arqueológico com pinturas rupestres preservadas, revelando a história milenar do Brasil.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="centro-oeste">
+                                <div class="row">
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/centro-oeste/bonito.jpg" alt="Bonito">
+                                        <h5>Bonito - MS</h5>
+                                        <p>Descubra as águas cristalinas dos rios, cavernas impressionantes e uma rica biodiversidade na região de Bonito.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/centro-oeste/brasilia.jpeg" alt="Brasília">
+                                        <h5>Brasília - DF</h5>
+                                        <p>A capital do Brasil oferece arquitetura moderna, parques deslumbrantes e uma rica história política e cultural.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/centro-oeste/caldas-novas.jpg" alt="Caldas novas">
+                                        <h5>Caldas Novas - GO</h5>
+                                        <p>A maior estância hidrotermal do mundo, com águas quentes que proporcionam relaxamento e diversão.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/centro-oeste/goiania.jpg" alt="goiania">
+                                        <h5>Goiânia - GO</h5>
+                                        <p>Uma cidade vibrante, com parques, cultura e vida noturna agitada, que mescla modernidade e tradição.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sudeste">
+                                <div class="row">
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/sudeste/captolio.jpeg" alt="Captólio">
+                                        <h5>Captólio - MG</h5>
+                                        <p>Um destino de natureza exuberante, com cânions, cachoeiras e o famoso Lago de Furnas.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/sudeste/guarapari.jpg" alt="Guarapari">
+                                        <h5>Guarapari - ES</h5>
+                                        <p>Praias deslumbrantes, águas cristalinas e uma vida noturna animada tornam Guarapari um destino de sonho.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/sudeste/rio.jpeg" alt="rio de janeiro">
+                                        <h5>Rio de Janeiro - RJ</h5>
+                                        <p>Cidade maravilhosa, com praias icônicas, montanhas imponentes e uma energia contagiante.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div><div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/sudeste/campos-do-jordao.jpg" alt="Campos do jordão">
+                                        <h5>Campos do Jordão - SP</h5>
+                                        <p>A Suíça brasileira encanta com suas construções em estilo europeu, clima ameno e paisagens montanhosas.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sul">
+                                <div class="row">
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/sul/balneario.jpeg" alt="balneario">
+                                        <h5>Balneário Camboriú - SC</h5>
+                                        <p>Um balneário moderno e sofisticado, com praias belíssimas, arranha-céus e uma vida noturna agitada.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/sul/curitiba.jpg" alt="Curitiba">
+                                        <h5>Curitiba - PR</h5>
+                                        <p>Uma cidade planejada, com parques exuberantes, arquitetura europeia e uma rica cena cultural.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/sul/cataratas.jpg" alt="Cataratas do iguaçu">
+                                        <h5>Foz do Iguaçu - PR</h5>
+                                        <p>As majestosas Cataratas do Iguaçu são a principal atração dessa região de beleza natural indescritível.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                    <div class="col-md-6 pb-4">
+                                        <img class="d-block w-100 rounded" src="images/sul/gramado.jpg" alt="Gramado">
+                                        <h5>Gramado - RS</h5>
+                                        <p>Uma cidade encantadora, conhecida por seu clima europeu, paisagens deslumbrantes e o famoso Natal Luz.</p>
+                                        <a href="#" class="btn fw-bold w-100">Mais informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-5">Entre em contato</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold" for="nome">Seu nome</label>
+                                <input class="form-control" type="text" id="nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold" for="email">Seu e-mail</label>
+                                <input class="form-control" type="email" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold" for="telefone">Seu telefone (opcional)</label>
+                                <input class="form-control" type="tel" id="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold" for="mensagem">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-3">
+                                    <a href="">
+                                        <i class="bi bi-facebook text-colored2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-3 ms-1 me-1">
+                                    <a href="">
+                                        <i class="bi bi-instagram text-colored2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-3">
+                                    <a href="">
+                                        <i class="bi bi-whatsapp text-colored2"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4">
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Joaquim de Fiqueiredo n° 148, Barreiro - Belo Horizonte - MG
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
